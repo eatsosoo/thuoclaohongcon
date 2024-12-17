@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-bg {
+    @apply bg-cover bg-center flex justify-center;
+}
+
+.btn-order {
+    @apply bg-secondary text-white py-4 px-8 rounded-full text-black font-semibold;
+}
