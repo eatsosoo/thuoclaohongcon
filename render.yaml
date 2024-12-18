@@ -11,8 +11,6 @@ services:
         value: production
       - key: APP_KEY
         value: base64:3eBMt5DAPEdlYXY32XK/ulgcspA9Gr38JT4XOO3UvDk=
-      - key: APP_DEBUG
-        value: false
       - key: APP_URL
         value: https://thuoclaohongcon.onrender.com
       - key: DB_CONNECTION
