@@ -1,10 +1,10 @@
 services:
-  - type: web # Loại dịch vụ là Web Service
-    name: thuoclaohongcon-app # Tên ứng dụng
-    env: docker # Chạy trên Docker
-    plan: free # Plan miễn phí
-    dockerfilePath: ./Dockerfile # Đường dẫn tới Dockerfile
-    envVars: # Các biến môi trường cần thiết
+  - type: web
+    name: thuoclaohongcon-app
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
       - key: APP_ENV
         value: production
       - key: APP_KEY
@@ -26,10 +26,11 @@ services:
 
     buildCommand: |
       composer install --optimize-autoloader --no-dev
+      npm install
+      npm run build
       php artisan migrate --force
       php artisan config:cache
       php artisan route:cache
       php artisan view:cache
 
-    startCommand: |
-      php artisan serve --host=0.0.0.0 --port=80
+    startCommand: []

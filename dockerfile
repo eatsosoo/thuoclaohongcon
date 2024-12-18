@@ -1,45 +1,41 @@
-# Use the official PHP image with PHP-FPM
+# Sử dụng PHP 8.2 với PHP-FPM
 FROM php:8.2-fpm
 
-# Set working directory
-WORKDIR /var/www
-
-# Install system dependencies
+# Cài đặt các dependencies cần thiết
 RUN apt-get update && apt-get install -y \
     git \
     curl \
+    unzip \
+    zip \
     libpng-dev \
     libjpeg-dev \
     libfreetype6-dev \
-    zip \
-    unzip \
     libonig-dev \
     libzip-dev \
     nginx
 
-# Clear cache
-RUN apt-get clean && rm -rf /var/lib/apt/lists/*
-
-# Install PHP extensions
+# Cài đặt các extension PHP
 RUN docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd zip
 
-# Install Composer
+# Cài đặt Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-# Copy existing application directory contents
+# Thiết lập thư mục làm việc
+WORKDIR /var/www
+
+# Sao chép mã nguồn ứng dụng Laravel
 COPY . /var/www
 
-# Copy Nginx configuration file
+# Cấp quyền cho thư mục storage và bootstrap/cache
+RUN chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache \
+    && chmod -R 755 /var/www/storage /var/www/bootstrap/cache
+
+# Sao chép file cấu hình Nginx
 COPY ./nginx.conf /etc/nginx/conf.d/default.conf
 
-# Set permissions for Laravel
-RUN chown -R www-data:www-data /var/www \
-    && chmod -R 755 /var/www/storage \
-    && chmod -R 755 /var/www/bootstrap/cache
-
-# Expose HTTP port
+# Expose port 80
 EXPOSE 80
 
-# Start PHP-FPM and Nginx
+# Khởi động cả PHP-FPM và Nginx
 CMD service php8.2-fpm start && nginx -g "daemon off;"
