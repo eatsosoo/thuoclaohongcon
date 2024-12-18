@@ -1,12 +1,10 @@
 services:
-  - type: web
-    name: laravel-app
-    env: docker
-    plan: free
-    dockerfilePath: ./dockerfile
-    buildCommand: composer install && php artisan key:generate && php artisan migrate
-    startCommand: php-fpm
-    envVars:
+  - type: web # Loại dịch vụ là Web Service
+    name: thuoclaohongcon-app # Tên ứng dụng
+    env: docker # Chạy trên Docker
+    plan: free # Plan miễn phí
+    dockerfilePath: ./Dockerfile # Đường dẫn tới Dockerfile
+    envVars: # Các biến môi trường cần thiết
       - key: APP_ENV
         value: production
       - key: APP_KEY
@@ -25,3 +23,13 @@ services:
         value: phongduytran7999@gmail.com
       - key: MAIL_TO_ADDRESS
         value: eatsoosoo@gmail.com
+
+    buildCommand: |
+      composer install --optimize-autoloader --no-dev
+      php artisan migrate --force
+      php artisan config:cache
+      php artisan route:cache
+      php artisan view:cache
+
+    startCommand: |
+      php artisan serve --host=0.0.0.0 --port=80
