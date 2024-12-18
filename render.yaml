@@ -10,7 +10,7 @@ services:
       - key: APP_KEY
         value: base64:3eBMt5DAPEdlYXY32XK/ulgcspA9Gr38JT4XOO3UvDk=
       - key: APP_URL
-        value: https://thuoclaohongcon.onrender.com
+        value: https://thuoclaohongcon.onrender.com/
       - key: DB_CONNECTION
         value: sqlite
       - key: DB_DATABASE
@@ -24,13 +24,13 @@ services:
       - key: MAIL_TO_ADDRESS
         value: eatsoosoo@gmail.com
 
-    buildCommand: |
-      composer install --optimize-autoloader --no-dev
-      npm install
-      npm run build
-      php artisan migrate --force
-      php artisan config:cache
-      php artisan route:cache
-      php artisan view:cache
+    # buildCommand: |
+    #   composer install --optimize-autoloader --no-dev
+    #   npm install
+    #   npm run build
+    #   php artisan migrate --force
+    #   php artisan config:cache
+    #   php artisan route:cache
+    #   php artisan view:cache
 
-    startCommand: []
+    # startCommand: []
