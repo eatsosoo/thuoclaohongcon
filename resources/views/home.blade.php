@@ -175,7 +175,7 @@
     <div id="orderModal" class="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center hidden">
         <div class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/jn-msocIJ.png')] text-sm p-6 rounded-lg shadow-lg w-full max-w-md">
             <h2 class="text-2xl font-semibold mb-4 text-white">Đặt hàng</h2>
-            <form action="/order" method="POST">
+            <form action="/send-mail" method="POST">
                 @csrf
                 <div class="mb-4">
                     <label for="name" class="block text-white">Tên người nhận</label>
@@ -197,6 +197,11 @@
                     <label for="quantity" class="block text-white">Số lượng (lạng)</label>
                     <input type="number" id="quantity" name="quantity" class="w-full p-2 border border-gray-300 rounded mt-1 text-gray-900" value="1" min="1" required>
                 </div>
+                @if (session('success'))
+                    <div class="bg-green-100 text-green-700 p-4 mb-4 rounded">
+                        {{ session('success') }}
+                    </div>
+                @endif
                 <div class="flex justify-end">
                     <button type="button" class="bg-gray-500 text-white px-4 py-2 rounded mr-2">Hủy</button>
                     <button type="submit" class="bg-secondary text-white px-4 py-2 rounded">Xác nhận</button>

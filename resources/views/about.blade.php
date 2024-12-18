@@ -213,7 +213,7 @@
                 @for ($i = 0; $i < 6; $i++)
                     <div class="relative group mx-auto md:mx-0">
                         <a href="https://www.facebook.com/hoang.sikey" target="_blank">
-                            <img src="https://via.placeholder.com/300" alt="Facebook Image" class="w-full">
+                            <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/jnnj-LbptCy.png" alt="Facebook Image" class="w-full">
                             <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <span class="text-white text-2xl font-semibold">Thuốc lào</span>
                             </div>
