@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: laravel-app
+    env: docker
+    plan: free
+    dockerfilePath: ./dockerfile
+    buildCommand: composer install && php artisan key:generate && php artisan migrate
+    startCommand: php-fpm
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_KEY
+        value: base64:3eBMt5DAPEdlYXY32XK/ulgcspA9Gr38JT4XOO3UvDk=
+      - key: APP_DEBUG
+        value: false
+      - key: APP_URL
+        value: https://thuoclaohongcon.onrender.com
+      - key: DB_CONNECTION
+        value: sqlite
+      - key: DB_DATABASE
+        value: /var/www/html/database/database.sqlite
+      - key: MAIL_USERNAME
+        value: phongduytran7999@gmail.com
+      - key: MAIL_PASSWORD
+        value: kuek szdz dcbo uwdv
+      - key: MAIL_FROM_ADDRESS
+        value: phongduytran7999@gmail.com
+      - key: MAIL_TO_ADDRESS
+        value: eatsoosoo@gmail.com
