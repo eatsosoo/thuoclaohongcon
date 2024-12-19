@@ -19,7 +19,7 @@ class ContactMail extends Mailable
 
     public function build()
     {
-        return $this->subject('Contact Form Submission')
+        return $this->subject('Thông báo đặt hàng')
             ->view('emails.order');
     }
 }

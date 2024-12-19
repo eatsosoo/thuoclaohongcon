@@ -23,7 +23,7 @@
         <header class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] border-b-2 border-secondary section-bg">
             <div class="container text-white flex items-center justify-between py-6 px-12">
                 <div>
-                    <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/km-lAUC8d.png" alt="logo" class="size-16" />
+                    <img src="/img/logo.png" alt="logo" class="size-16" />
                 </div>
                 <div class="flex gap-6">
                     <a href="/" class="cursor-pointer hover:underline">Trang chủ</a>
@@ -42,7 +42,7 @@
             <div class="container text-white mx-auto px-6 py-16">
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                     <div>
-                        <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/km-lAUC8d.png" alt="logo" class="size-16" />
+                        <img src="/img/logo.png" alt="logo" class="size-20" />
                         <p class="mt-4">©2024 thuoclaohongcon, <br>All rights reserved. </p>
                     </div>
                     <div>

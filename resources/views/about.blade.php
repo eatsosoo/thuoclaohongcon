@@ -7,10 +7,10 @@
                     <p class="text-xl text-gray-300">Thuốc lào Tiên Lãng có chất lượng hảo hạng. Thuốc lào không chỉ là thú vui tao nhã, mà còn là sợi dây kết nối tình bạn. Say khói thuốc lào không phải để lạc lối, mà để tìm về những khoảng lặng bình yên.</p>
                 </div>
                 <div class="p-6 rounded-lg shadow-md flex justify-center">
-                    <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/group-1000004349-1VHnSP.png" alt="section2-img1" class="w-[25rem]">
+                    <img src="/img/cua_hang_2.jpg" alt="cua_hang_2-img1" class="w-[25rem] h-[25rem] rounded-lg">
                 </div>
                 <div class="p-6 rounded-lg shadow-md flex justify-center">
-                    <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/as-hzqvUj.png" alt="section2-img2" class="w-[25rem]">
+                    <img src="/img/cua_hang_3.jpg" alt="cua_hang_3-img2" class="w-[25rem] h-[25rem] rounded-lg">
                 </div>
                 <div class="p-6 rounded-lg shadow-md my-auto">
                     <h2 class="font-semibold mb-4 text-6xl">Ghé thăm cửa hàng của chúng tôi</h2>
@@ -126,7 +126,7 @@
                     </div>
                 </div>
                 <div class="flex justify-center">
-                    <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/rectangle-4693-eNvjxs.png" alt="section-image" class="w-full h-auto">
+                    <img src="/img/cua_hang_1.jpg" alt="section-image" class="w-full h-auto rounded-lg">
                 </div>
                 <div class="flex flex-col gap-6">
                     <div class="p-6">
@@ -184,19 +184,19 @@
             <p class="mt-4">Tuyệt tác của hương vị thuốc lào Tiên Lãng</p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 max-w-6xl mx-auto">
                 <div class="p-6 mx-auto">
-                    <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/jnnj-LbptCy.png" alt="Tiên Lãng-Kiến Thiết loại Đặc Biệt" class="w-[22rem]">
+                    <img src="/img/loai1.jpg" alt="Tiên Lãng-Kiến Thiết loại Đặc Biệt" class="w-[22rem] rounded-lg">
                     <h3 class="font-semibold text-2xl my-4">Tiên Lãng-Kiến Thiết <br>loại Đặc Biệt</h3>
                     <p class="text-xl mb-4 text-secondary font-semibold">200k/1 lạng</p>
                     <button class="btn-order">Đặt hàng</button>
                 </div>
                 <div class="p-6 mx-auto">
-                    <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/jnnj-LbptCy.png" alt="Tiên Lãng-Kiến Thiết loại VIP" class="w-[22rem]">
+                    <img src="/img/loai2.jpg" alt="Tiên Lãng-Kiến Thiết loại VIP" class="w-[22rem] rounded-lg">
                     <h3 class="font-semibold text-2xl my-4">Tiên Lãng-Kiến Thiết <br>loại VIP</h3>
                     <p class="text-xl mb-4 text-secondary font-semibold">150k/1 lạng</p>
                     <button class="btn-order">Đặt hàng</button>
                 </div>
                 <div class="p-6 mx-auto">
-                    <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/jnnj-LbptCy.png" alt="Tiên Lãng-Kiến Thiết loại 1" class="w-[22rem]">
+                    <img src="/img/loai3.jpg" alt="Tiên Lãng-Kiến Thiết loại 1" class="w-[22rem] rounded-lg">
                     <h3 class="font-semibold text-2xl my-4">Tiên Lãng-Kiến Thiết <br>loại 1</h3>
                     <p class="text-xl mb-4 text-secondary font-semibold">120k/1 lạng</p>
                     <button class="btn-order">Đặt hàng</button>
@@ -211,9 +211,9 @@
             <p class="mt-4">Gìn giữ giá trị xưa - Lan toả đam mê thuốc lào</p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mt-8">
                 @for ($i = 0; $i < 6; $i++)
-                    <div class="relative group mx-auto md:mx-0">
+                    <div class="relative group mx-auto md:mx-0 rounded-lg">
                         <a href="https://www.facebook.com/hoang.sikey" target="_blank">
-                            <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/jnnj-LbptCy.png" alt="Facebook Image" class="w-full">
+                            <img src="/img/san_pham.jpg" alt="Facebook Image" class="w-full rounded-lg">
                             <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <span class="text-white text-2xl font-semibold">Thuốc lào</span>
                             </div>
