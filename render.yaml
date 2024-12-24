@@ -1,36 +1,22 @@
 services:
   - type: web
-    name: thuoclaohongcon-app
-    env: docker
+    name: thuoclaohongcon
+    env: php
     plan: free
-    dockerfilePath: ./Dockerfile
+    buildCommand: composer install && php artisan key:generate && php artisan migrate --force
+    startCommand: php artisan serve --host 0.0.0.0 --port 10000
     envVars:
       - key: APP_ENV
         value: production
       - key: APP_KEY
-        value: base64:3eBMt5DAPEdlYXY32XK/ulgcspA9Gr38JT4XOO3UvDk=
+        fromDatabase: true
+      - key: APP_DEBUG
+        value: false
       - key: APP_URL
-        value: https://thuoclaohongcon.onrender.com/
+        value: https://thuoclaohongcon.onrender.com
       - key: DB_CONNECTION
         value: sqlite
       - key: DB_DATABASE
-        value: /var/www/html/database/database.sqlite
-      - key: MAIL_USERNAME
-        value: phongduytran7999@gmail.com
-      - key: MAIL_PASSWORD
-        value: kuek szdz dcbo uwdv
-      - key: MAIL_FROM_ADDRESS
-        value: phongduytran7999@gmail.com
-      - key: MAIL_TO_ADDRESS
-        value: eatsoosoo@gmail.com
-
-    # buildCommand: |
-    #   composer install --optimize-autoloader --no-dev
-    #   npm install
-    #   npm run build
-    #   php artisan migrate --force
-    #   php artisan config:cache
-    #   php artisan route:cache
-    #   php artisan view:cache
-
-    # startCommand: []
+        value: /var/www/database/database.sqlite
+    staticPublishPath: public
+    autoDeploy: true
