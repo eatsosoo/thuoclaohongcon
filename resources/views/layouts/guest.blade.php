@@ -28,7 +28,7 @@
                 <div class="flex gap-6">
                     <a href="/" class="cursor-pointer hover:underline">Trang chủ</a>
                     <a href="/about" class="cursor-pointer hover:underline">Về chúng tôi</a>
-                    <a href="/products" class="cursor-pointer hover:underline">Sản phẩm</a>
+                    <a href="/product" class="cursor-pointer hover:underline">Sản phẩm</a>
                 </div>
             </div>
         </header>
@@ -54,14 +54,120 @@
                     <div>
                         <p class="text-2xl font-semibold">Dịch vụ</p>
                         <p class="text-lg mt-4 text-gray-300">Facebook</p>
+                        <p class="text-lg mt-4 text-gray-300">0931579983 - 0934569770</p>
+                        <p class="text-lg mt-4 text-gray-300">217 khu 4 thị trấn tiên lãng, huyện Tiên lãng , Thành phố Hải Phòng</p>
                     </div>
                     <div>
                         <p class="text-2xl font-semibold">Giở mở cửa</p>
                         <p class="text-lg mt-4 text-gray-300">Thứ 2 - Chủ nhật</p>
-                        <p class="text-lg mt-4 text-gray-300">Mở từ 9:00 - 18:00</p>
+                        <p class="text-lg mt-4 text-gray-300">24/24</p>
                     </div>
                 </div>
             </div>
         </footer>
+
+        <!-- Modal Form -->
+        <div id="orderModal" class="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center hidden">
+            <div class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/jn-msocIJ.png')] text-sm p-6 rounded-lg shadow-lg w-full max-w-md">
+                <h2 class="text-2xl font-semibold mb-4 text-white">Đặt hàng</h2>
+                <form id="send-mail-form" action="/send-mail" method="POST">
+                    @csrf
+                    <div class="mb-4">
+                        <label for="name" class="block text-white">Tên người nhận</label>
+                        <input type="text" id="name" name="name" class="w-full p-2 border border-gray-300 rounded mt-1 text-gray-900" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="address" class="block text-white">Địa chỉ</label>
+                        <input type="text" id="address" name="address" class="w-full p-2 border border-gray-300 rounded mt-1 text-gray-900" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="phone" class="block text-white">Số điện thoại</label>
+                        <input type="text" id="phone" name="phone" class="w-full p-2 border border-gray-300 rounded mt-1 text-gray-900" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="product_name" class="block text-white">Sảm phẩm</label>
+                        <input type="text" id="product_name" name="product_name" class="w-full p-2 border border-gray-300 rounded mt-1 text-gray-900" required readonly>
+                    </div>
+                    <div class="mb-4">
+                        <label for="quantity" class="block text-white">Số lượng (lạng)</label>
+                        <input type="number" id="quantity" name="quantity" class="w-full p-2 border border-gray-300 rounded mt-1 text-gray-900" value="1" min="1" required>
+                    </div>
+                    @if (session('success'))
+                        <div class="bg-green-100 text-green-700 p-4 mb-4 rounded">
+                            {{ session('success') }}
+                        </div>
+                    @endif
+                    <div class="flex justify-end">
+                        <button id="btn-cancel" type="button" class="bg-gray-500 text-white px-4 py-2 rounded mr-2">Hủy</button>
+                        <button id="btn-confirm" type="submit" class="bg-secondary text-white px-4 py-2 rounded">Xác nhận</button>
+                        <button id="btn-loader" type="button" class="bg-secondary text-white px-4 py-2 rounded w-24 hidden">
+                            <div class="loader"></div>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+            <!-- Scroll to Top Button -->
+        <button class="scroll-to-top" id="scrollToTopBtn" title="Go to top">
+            ↑
+        </button>
+
+        <script>
+            function toggleModal(product) {
+                const modal = document.getElementById('orderModal');
+                modal.classList.toggle('hidden');
+                document.getElementById('product_name').value = product;
+            }
+
+            function close() {
+                const modal = document.getElementById('orderModal');
+                modal.classList.add('hidden');
+            }
+
+            document.querySelectorAll('.btn-order').forEach(button => {
+                button.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    const product = this.parentElement.querySelector('h3').textContent;
+                    toggleModal(product);
+                });
+            });
+
+            document.getElementById('btn-cancel').addEventListener('click', function() {
+                close();
+            });
+
+            // document.getElementById('btn-confirm').addEventListener('click', function() {
+            //     document.getElementById('btn-confirm').classList.add('hidden');
+            //     document.getElementById('btn-loader').classList.remove('hidden');
+            // });
+
+            document.getElementById('send-mail-form').addEventListener('submit', function(event) {
+                // event.preventDefault();
+            });
+        </script>
+
+        <script>
+            // Get the button
+            var mybutton = document.getElementById("scrollToTopBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {
+                scrollFunction();
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.classList.add("show");
+                } else {
+                    mybutton.classList.remove("show");
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            mybutton.onclick = function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            };
+        </script>
     </body>
 </html>

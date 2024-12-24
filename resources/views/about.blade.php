@@ -1,10 +1,13 @@
 <x-guest-layout>
-    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/jn-msocIJ.png')] section-bg">
+    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] section-bg">
         <div class="container p-6 text-white">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="p-6 rounded-lg shadow-md my-auto">
                     <h2 class="font-semibold mb-4 text-6xl">Về chúng tôi</h2>
-                    <p class="text-xl text-gray-300">Thuốc lào Tiên Lãng có chất lượng hảo hạng. Thuốc lào không chỉ là thú vui tao nhã, mà còn là sợi dây kết nối tình bạn. Say khói thuốc lào không phải để lạc lối, mà để tìm về những khoảng lặng bình yên.</p>
+                    <p class="text-xl text-gray-300 mb-10">Thuốc lào Tiên Lãng có chất lượng hảo hạng. Thuốc lào không chỉ là thú vui tao nhã, mà còn là sợi dây kết nối tình bạn. Say khói thuốc lào không phải để lạc lối, mà để tìm về những khoảng lặng bình yên.</p>
+                    <a href="/product" class="btn-primary">
+                        Đặt hàng ngay
+                    </a>
                 </div>
                 <div class="p-6 rounded-lg shadow-md flex justify-center">
                     <img src="/img/cua_hang_2.jpg" alt="cua_hang_2-img1" class="w-[25rem] h-[25rem] rounded-lg">
@@ -17,19 +20,15 @@
                     <p class="text-xl text-gray-300 mb-8">Thuốc lào của chúng tôi mang đến chất lượng tuyệt vời. Hãy trải nghiệm hương vị nguyên bản, đậm chất Tiên Lãng, Việt Nam.</p>
                     <h3 class="font-semibold mb-4 text-3xl">Giờ mở cửa:</h3>
                     <div class="text-gray-300 flex">
-                        <p class="w-[15rem]">Thứ 2 - Thứ 6 </p>
-                        <p class="text-secondary">09:00 - 16:00</p>
-                    </div>
-                    <div class="text-gray-300 flex">
-                        <p class="w-[15rem]">Thứ 7 - Chủ nhật </p>
-                        <p class="text-secondary">09:00 - 16:00</p>
+                        <p class="w-[15rem]">Thứ 2 - Chủ nhật </p>
+                        <p class="text-secondary">24/24</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/rt-ZpoOsP.png')] section-bg">
+    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] section-bg">
         <div class="container px-6 py-20 text-white text-center">
             <div class="font-semibold text-3xl">Hạnh phúc là làm một bi thuốc ngon lành...</div>
             <div class="mt-4">Lê Thuỷ Hoàng</div>
@@ -37,7 +36,7 @@
         </div>
     </section>
 
-    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] section-bg">
+    {{-- <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] section-bg">
         <div class="container">
             <div class="container px-6 py-20 text-white text-center">
                 <div class="max-w-4xl mx-auto">
@@ -88,7 +87,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] section-bg">
         <div class="container px-6 py-20">
@@ -100,13 +99,13 @@
                     <p class="mt-4 text-gray-300 italic font-semibold text-xl">Hãy trải nghiệm hương vị đậm đà của thuốc lào Tiên Lãng – sản phẩm thủ công truyền thống chất lượng tuyệt vời.</p>
                 </div>
                 <div class="flex justify-center">
-                    <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/sdffdsf--ErLMW.png" alt="thuoc-lao" class="w-[30rem]">
+                    <img src="/img/cua_hang_4.jpg" alt="thuoc-lao" class="w-[30rem] rounded-lg">
                 </div>
             </div>
         </div>
     </section>
     
-    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/safsa-ydaayd.png')] section-bg">
+    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] section-bg">
         <div class="container px-6 py-20 text-white">
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="font-semibold text-6xl">Chúng tôi cung cấp thuốc lào hảo hạng nhất</h1>
@@ -178,7 +177,7 @@
         </div>
     </section>
 
-    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/frame-1000007408-o76FCZ.png')] section-bg">
+    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] section-bg">
         <div class="container px-6 py-20 text-white text-center">
             <h1 class="font-semibold text-6xl">Sản phẩm của chúng tôi</h1>
             <p class="mt-4">Tuyệt tác của hương vị thuốc lào Tiên Lãng</p>
@@ -212,8 +211,8 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mt-8">
                 @for ($i = 0; $i < 6; $i++)
                     <div class="relative group mx-auto md:mx-0 rounded-lg">
-                        <a href="https://www.facebook.com/hoang.sikey" target="_blank">
-                            <img src="/img/san_pham.jpg" alt="Facebook Image" class="w-full rounded-lg">
+                        <a href="https://www.facebook.com/Thuoclaohongcon" target="_blank">
+                            <img src="/img/fb_{{ $i + 1 }}.jpg" alt="Facebook Image" class="w-full h-[20rem] rounded-lg object-cover">
                             <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <span class="text-white text-2xl font-semibold">Thuốc lào</span>
                             </div>

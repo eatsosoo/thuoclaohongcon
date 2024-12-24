@@ -1,20 +1,22 @@
 <x-guest-layout>
-    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/jn-msocIJ.png')] section-bg">
+    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] section-bg">
         <div class="container p-6 text-white">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="p-6 rounded-lg shadow-md my-auto">
                     <h2 class="font-semibold mb-8 text-6xl">Thuốc lào Tiên Lãng</h2>
                     <p class="text-xl text-gray-300 mb-8">Khói thuốc lào đưa ta về miền ký ức, nơi tình quê đậm đà và hương vị khó quên. Một điếu thuốc lào, một chén trà xanh, câu chuyện quê hương càng thêm đượm tình. Rít một hơi thật sâu, thả một làn khói trắng, lòng bỗng thấy nhẹ như mây trời.</p>
-                    <a href="/products" class="btn-order">Đặt hàng</a>
+                    <a href="/product" class="btn-primary">
+                        Đặt hàng ngay
+                    </a>
                 </div>
                 <div class="p-6 rounded-lg shadow-md flex justify-center">
-                    <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/group-1000004349-1VHnSP.png" alt="section2-img1" class="w-[25rem]">
+                    <img src="/img/cua_hang_4.jpg" alt="section2-img1" class="w-[25rem] rounded-lg">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/safsa-ydaayd.png')] section-bg">
+    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] section-bg">
         <div class="container px-6 py-20 text-white">
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="font-semibold text-6xl">Về sản phẩm của chúng tôi</h1>
@@ -34,7 +36,7 @@
                     </div>
                 </div>
                 <div class="flex justify-center">
-                    <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/group-1000003336-upQSuO.png" alt="section-image" class="w-full h-auto">
+                    <img src="/img/san_pham.jpg" alt="section-image" class="w-full h-auto rounded-lg">
                 </div>
                 <div class="flex flex-col gap-6">
                     <div class="p-6">
@@ -86,7 +88,7 @@
         </div>
     </section>
 
-    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/frame-1000007408-o76FCZ.png')] section-bg">
+    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] section-bg">
         <div class="container px-6 py-20 text-white text-center">
             <h1 class="font-semibold text-6xl">Sản phẩm của chúng tôi</h1>
             <p class="mt-4">Tuyệt tác của hương vị thuốc lào Tiên Lãng</p>
@@ -123,22 +125,18 @@
                 <div class="col-span-4">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div class="p-6">
-                            <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/sf-78nz4F.svg" alt="giao-hang">
                             <h3 class="font-semibold mb-4 text-2xl">Siêu ngon</h3>
                             <p class="text-gray-300">Vị ngon đậm chất truyền thống, đưa bạn vào một hành trình thưởng thức khó quên.</p>
                         </div>
                         <div class="p-6">
-                            <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/fgs-y90PnA.svg" alt="than-thien">
                             <h3 class="font-semibold mb-4 text-2xl">Không chất bảo quản</h3>
                             <p class="text-gray-300">Hoàn toàn tự nhiên, không sử dụng chất bảo quản để đảm bảo sức khỏe và an toàn cho người dùng.</p>
                         </div>
                         <div class="p-6">
-                            <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/kssj-sbV1H8.svg" alt="nhieu-lua-chon">
                             <h3 class="font-semibold mb-4 text-2xl">Đảm bảo</h3>
                             <p class="text-gray-300">Chất lượng luôn được đặt lên hàng đầu, cam kết mang đến sản phẩm tốt nhất cho bạn.</p>
                         </div>
                         <div class="p-6">
-                            <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/jhjv-2I-web.svg" alt="suc-khoe">
                             <h3 class="font-semibold mb-4 text-2xl">100% tự nhiên</h3>
                             <p class="text-gray-300">Tinh khiết và tự nhiên 100%, giữ trọn hương vị nguyên bản từ đất trời.</p>
                         </div>
@@ -149,7 +147,7 @@
         </div>
     </section>
 
-    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/jn-msocIJ.png')] section-bg">
+    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] section-bg">
         <div class="container p-6 text-white">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="p-6 rounded-lg shadow-md my-auto">
@@ -157,72 +155,19 @@
                     <p class="text-xl text-gray-300">Không chỉ là một sản phẩm, mà còn là bản sắc văn hóa của một vùng đất. Được chế biến thủ công từ những nguyên liệu tự nhiên, thuốc lào Tiên Lãng mang đến hương vị đậm đà, giàu dưỡng chất, giúp người dùng cảm nhận trọn vẹn sự tinh túy của đất trời. Mỗi điếu thuốc lào là một hành trình trải nghiệm độc đáo của những thế hệ đi trước, kết hợp hoàn hảo giữa truyền thống và sự sáng tạo hiện đại.</p>
                 </div>
                 <div class="p-6 rounded-lg shadow-md flex justify-center">
-                    <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/group-1000004349-1VHnSP.png" alt="section2-img1" class="w-[25rem]">
+                    <img src="/img/san_pham_2.jpg" alt="section2-img1" class="w-[25rem] h-[25rem] rounded-lg">
                 </div>
                 <div class="p-6 rounded-lg shadow-md flex justify-center">
-                    <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/as-hzqvUj.png" alt="section2-img2" class="w-[25rem]">
+                    <img src="/img/customer.png" alt="section2-img2" class="w-[25rem] h-[25rem] rounded-lg object-cover">
                 </div>
                 <div class="p-6 rounded-lg shadow-md my-auto">
                     <h2 class="font-semibold mb-4 text-4xl">Sự lựa chọn hàng đầu cho những tín đồ</h2>
                     <p class="text-xl text-gray-300 mb-8">Với chất lượng vượt trội, thuốc lào Tiên Lãng không chỉ nổi bật bởi hương vị đậm đà mà còn đảm bảo tính tự nhiên và an toàn cho sức khỏe. Mỗi sản phẩm được tạo ra từ những công thức gia truyền, mang đến một trải nghiệm thú vị và khác biệt, thu hút những tín đồ yêu thích sự mới mẻ và chất lượng trong từng hơi thuốc.</p>
-                    <a href="/products" class="btn-order">Đặt hàng</a>
+                    <a href="/product" class="btn-primary">
+                        Đặt hàng ngay
+                    </a>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Modal Form -->
-    <div id="orderModal" class="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center hidden">
-        <div class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/jn-msocIJ.png')] text-sm p-6 rounded-lg shadow-lg w-full max-w-md">
-            <h2 class="text-2xl font-semibold mb-4 text-white">Đặt hàng</h2>
-            <form action="/send-mail" method="POST">
-                @csrf
-                <div class="mb-4">
-                    <label for="name" class="block text-white">Tên người nhận</label>
-                    <input type="text" id="name" name="name" class="w-full p-2 border border-gray-300 rounded mt-1 text-gray-900" required>
-                </div>
-                <div class="mb-4">
-                    <label for="address" class="block text-white">Địa chỉ</label>
-                    <input type="text" id="address" name="address" class="w-full p-2 border border-gray-300 rounded mt-1 text-gray-900" required>
-                </div>
-                <div class="mb-4">
-                    <label for="phone" class="block text-white">Số điện thoại</label>
-                    <input type="text" id="phone" name="phone" class="w-full p-2 border border-gray-300 rounded mt-1 text-gray-900" required>
-                </div>
-                <div class="mb-4">
-                    <label for="product_name" class="block text-white">Sảm phẩm</label>
-                    <input type="text" id="product_name" name="product_name" class="w-full p-2 border border-gray-300 rounded mt-1 text-gray-900" required readonly>
-                </div>
-                <div class="mb-4">
-                    <label for="quantity" class="block text-white">Số lượng (lạng)</label>
-                    <input type="number" id="quantity" name="quantity" class="w-full p-2 border border-gray-300 rounded mt-1 text-gray-900" value="1" min="1" required>
-                </div>
-                @if (session('success'))
-                    <div class="bg-green-100 text-green-700 p-4 mb-4 rounded">
-                        {{ session('success') }}
-                    </div>
-                @endif
-                <div class="flex justify-end">
-                    <button type="button" class="bg-gray-500 text-white px-4 py-2 rounded mr-2">Hủy</button>
-                    <button type="submit" class="bg-secondary text-white px-4 py-2 rounded">Xác nhận</button>
-                </div>
-            </form>
-        </div>
-    </div>
-
-    <script>
-        function toggleModal(product) {
-            const modal = document.getElementById('orderModal');
-            modal.classList.toggle('hidden');
-            document.getElementById('product_name').value = product;
-        }
-
-        document.querySelectorAll('.btn-order').forEach(button => {
-            button.addEventListener('click', function(event) {
-                event.preventDefault();
-                const product = this.parentElement.querySelector('h3').textContent;
-                toggleModal(product);
-            });
-        });
-    </script>
 </x-guest-layout>

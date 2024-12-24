@@ -13,6 +13,14 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/product', function () {
+    return view('product');
+});
+
+Route::get('/success', function () {
+    return view('success');
+});
+
 Route::post('/send-mail', function (\Illuminate\Http\Request $request) {
     $validated = $request->validate([
         'name' => 'required|string|max:255',
@@ -31,8 +39,8 @@ Route::post('/send-mail', function (\Illuminate\Http\Request $request) {
     ];
 
     Mail::to(env('MAIL_TO_ADDRESS', 'eatsoosoo@gmail.com'))->send(new ContactMail($details));
-
     return back()->with('success', 'Đặt hàng thành công!');
+    return view('success');
 });
 
 // Route::get('/dashboard', function () {
