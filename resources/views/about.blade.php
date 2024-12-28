@@ -3,7 +3,7 @@
         <div class="container p-6 text-white">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="p-6 rounded-lg shadow-md my-auto">
-                    <h2 class="font-semibold mb-4 text-6xl">Về chúng tôi</h2>
+                    <h2 class="font-semibold mb-4 text-6xl">Thuốc lào Hồng Con</h2>
                     <p class="text-xl text-gray-300 mb-10">Thuốc lào Tiên Lãng có chất lượng hảo hạng. Thuốc lào không chỉ là thú vui tao nhã, mà còn là sợi dây kết nối tình bạn. Say khói thuốc lào không phải để lạc lối, mà để tìm về những khoảng lặng bình yên.</p>
                     <a href="/product" class="btn-primary">
                         Đặt hàng ngay

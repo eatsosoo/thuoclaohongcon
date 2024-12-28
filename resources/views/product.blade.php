@@ -1,5 +1,4 @@
 <x-guest-layout>
-
     <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] section-bg">
         <div class="container px-6 py-20 text-white text-center">
             <h1 class="font-semibold text-6xl">Sản phẩm của chúng tôi</h1>
