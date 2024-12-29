@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\ProfileUpdateRequest;
 use App\Mail\ContactMail;
+use App\Models\Order;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -13,6 +14,25 @@ use Illuminate\View\View;
 
 class OrderController extends Controller
 {
+    public function index(Request $request): View
+    {
+        $page = $request->query('page', 1);
+        $orders = Order::orderBy('created_at', 'DESC')->paginate(10, ['*'], 'page', $page)->toArray();
+        $pin = env('PIN_CODE', '797979');
+        return view('orders', compact('orders', 'pin'));
+    }
+
+    public function createOrder($payload)
+    {
+        $order = new Order();
+        $order->name = $payload['name'];
+        $order->phone = $payload['phone'];
+        $order->address = $payload['address'];
+        $order->product_name = $payload['product_name'];
+        $order->quantity = $payload['quantity'];
+        $order->save();
+    }
+
     public function sendMailOrder(Request $request)
     {
         $validated = $request->validate([
@@ -30,8 +50,13 @@ class OrderController extends Controller
             'product_name' => $validated['product_name'],
             'quantity' => $validated['quantity'],
         ];
-    
-        Mail::to(env('MAIL_TO_ADDRESS', 'eatsoosoo@gmail.com'))->send(new ContactMail($details));
+
+        try {
+            $this->createOrder($details);
+            Mail::to(env('MAIL_TO_ADDRESS', 'eatsoosoo@gmail.com'))->send(new ContactMail($details));
+        } catch (\Exception $e) {
+            return response()->json(['error' => 'Đặt hàng thất bại. Vui lòng thử lại sau'], 500);
+        }
     
         return view('success');
     }

@@ -21,6 +21,7 @@ Route::get('/success', function () {
     return view('success');
 });
 
+Route::get('/orders', [OrderController::class, 'index'])->name('order-list');
 Route::post('/send-mail', [OrderController::class, 'sendMailOrder'])->name('send-mail');
 
 // Route::get('/dashboard', function () {
