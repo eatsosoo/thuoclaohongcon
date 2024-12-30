@@ -54,7 +54,7 @@
                     </div>
                     <div>
                         <p class="text-2xl font-semibold">Dịch vụ</p>
-                        <p class="text-lg mt-4 text-gray-300">Facebook</p>
+                        <a href="https://www.facebook.com/Thuoclaohongcon" target="_blank" class="text-lg mt-4 text-gray-300">Facebook</a>
                         <p class="text-lg mt-4 text-gray-300">0931579983 - 0934569770</p>
                         <p class="text-lg mt-4 text-gray-300">217 khu 4 thị trấn tiên lãng, huyện Tiên lãng , Thành phố Hải Phòng</p>
                     </div>

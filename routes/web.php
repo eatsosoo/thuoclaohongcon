@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\OrderController;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\ContactMail;
 use Illuminate\Support\Facades\Route;
@@ -21,27 +21,8 @@ Route::get('/success', function () {
     return view('success');
 });
 
-Route::post('/send-mail', function (\Illuminate\Http\Request $request) {
-    $validated = $request->validate([
-        'name' => 'required|string|max:255',
-        'phone' => 'required|string|max:10',
-        'address' => 'required|string|max:500',
-        'product_name' => 'required|string|max:255',
-        'quantity' => 'required|integer',
-    ]);
-
-    $details = [
-        'name' => $validated['name'],
-        'phone' => $validated['phone'],
-        'address' => $validated['address'],
-        'product_name' => $validated['product_name'],
-        'quantity' => $validated['quantity'],
-    ];
-
-    Mail::to(env('MAIL_TO_ADDRESS', 'eatsoosoo@gmail.com'))->send(new ContactMail($details));
-    return back()->with('success', 'Đặt hàng thành công!');
-    return view('success');
-});
+Route::get('/orders', [OrderController::class, 'index'])->name('order-list');
+Route::post('/send-mail', [OrderController::class, 'sendMailOrder'])->name('send-mail');
 
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
