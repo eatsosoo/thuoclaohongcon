@@ -14,7 +14,7 @@
 <body class="bg-gray-100">
     <div class="container mx-auto my-10 p-6 bg-white rounded-lg shadow-lg max-w-lg">
         <div class="text-center mb-6">
-            {{-- <img src="/img/logo.png" alt="Logo" class="mx-auto h-16"> --}}
+            {{-- <img src="/images/logo.png" alt="Logo" class="mx-auto h-16"> --}}
         </div>
         <h1 class="text-2xl font-bold text-gray-800 mb-4">Đơn hàng mới</h1>
         <div class="details mb-6">

@@ -5,12 +5,12 @@
                 <div class="p-6 rounded-lg shadow-md my-auto">
                     <h2 class="font-semibold mb-8 text-6xl">Thuốc lào Tiên Lãng</h2>
                     <p class="text-xl text-gray-300 mb-8">Khói thuốc lào đưa ta về miền ký ức, nơi tình quê đậm đà và hương vị khó quên. Một điếu thuốc lào, một chén trà xanh, câu chuyện quê hương càng thêm đượm tình. Rít một hơi thật sâu, thả một làn khói trắng, lòng bỗng thấy nhẹ như mây trời.</p>
-                    <a href="/product" class="btn-primary">
+                    <a href="/thuoc-lao-hong-con" class="btn-primary">
                         Đặt hàng ngay
                     </a>
                 </div>
                 <div class="p-6 rounded-lg shadow-md flex justify-center">
-                    <img src="/img/cua_hang_4.jpg" alt="section2-img1" class="w-[25rem] rounded-lg">
+                    <img src="/images/cua_hang_4.jpg" alt="section2-img1" class="w-[25rem] rounded-lg">
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="flex justify-center">
-                    <img src="/img/san_pham.jpg" alt="section-image" class="w-full h-auto rounded-lg">
+                    <img src="/images/san-pham-thuoc-lao-hong-con.jpg" alt="Sản phẩm Thuốc Lào Tiên Lãng Hồng Con" class="w-full h-auto rounded-lg">
                 </div>
                 <div class="flex flex-col gap-6">
                     <div class="p-6">
@@ -94,19 +94,19 @@
             <p class="mt-4">Tuyệt tác của hương vị thuốc lào Tiên Lãng</p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 max-w-6xl mx-auto">
                 <div class="p-6 mx-auto">
-                    <img src="/img/loai1.jpg" alt="Tiên Lãng-Kiến Thiết loại Đặc Biệt" class="w-[22rem] rounded-lg">
+                    <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-dac-biet.jpg" alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại Đặc Biệt" class="w-[22rem] rounded-lg">
                     <h3 class="font-semibold text-2xl my-4">Tiên Lãng-Kiến Thiết <br>loại Đặc Biệt</h3>
                     <p class="text-xl mb-4 text-secondary font-semibold">200k/1 lạng</p>
                     <button class="btn-order">Đặt hàng</button>
                 </div>
                 <div class="p-6 mx-auto">
-                    <img src="/img/loai2.jpg" alt="Tiên Lãng-Kiến Thiết loại VIP" class="w-[22rem] rounded-lg">
+                    <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-vip.jpg" alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại VIP" class="w-[22rem] rounded-lg">
                     <h3 class="font-semibold text-2xl my-4">Tiên Lãng-Kiến Thiết <br>loại VIP</h3>
                     <p class="text-xl mb-4 text-secondary font-semibold">150k/1 lạng</p>
                     <button class="btn-order">Đặt hàng</button>
                 </div>
                 <div class="p-6 mx-auto">
-                    <img src="/img/loai3.jpg" alt="Tiên Lãng-Kiến Thiết loại 1" class="w-[22rem] rounded-lg">
+                    <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-1.jpg" alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại 1" class="w-[22rem] rounded-lg">
                     <h3 class="font-semibold text-2xl my-4">Tiên Lãng-Kiến Thiết <br>loại 1</h3>
                     <p class="text-xl mb-4 text-secondary font-semibold">120k/1 lạng</p>
                     <button class="btn-order">Đặt hàng</button>
@@ -155,15 +155,15 @@
                     <p class="text-xl text-gray-300">Không chỉ là một sản phẩm, mà còn là bản sắc văn hóa của một vùng đất. Được chế biến thủ công từ những nguyên liệu tự nhiên, thuốc lào Tiên Lãng mang đến hương vị đậm đà, giàu dưỡng chất, giúp người dùng cảm nhận trọn vẹn sự tinh túy của đất trời. Mỗi điếu thuốc lào là một hành trình trải nghiệm độc đáo của những thế hệ đi trước, kết hợp hoàn hảo giữa truyền thống và sự sáng tạo hiện đại.</p>
                 </div>
                 <div class="p-6 rounded-lg shadow-md flex justify-center">
-                    <img src="/img/san_pham_2.jpg" alt="section2-img1" class="w-[25rem] h-[25rem] rounded-lg">
+                    <img src="/images/thuoc-lao-hong-con-san-pham.jpg" alt="Sản phẩm Thuốc Lào Tiên Lãng Hồng Con" class="w-[25rem] h-[25rem] rounded-lg">
                 </div>
                 <div class="p-6 rounded-lg shadow-md flex justify-center">
-                    <img src="/img/customer.png" alt="section2-img2" class="w-[25rem] h-[25rem] rounded-lg object-cover">
+                    <img src="/images/customer.png" alt="section2-img2" class="w-[25rem] h-[25rem] rounded-lg object-cover">
                 </div>
                 <div class="p-6 rounded-lg shadow-md my-auto">
                     <h2 class="font-semibold mb-4 text-4xl">Sự lựa chọn hàng đầu cho những tín đồ</h2>
                     <p class="text-xl text-gray-300 mb-8">Với chất lượng vượt trội, thuốc lào Tiên Lãng không chỉ nổi bật bởi hương vị đậm đà mà còn đảm bảo tính tự nhiên và an toàn cho sức khỏe. Mỗi sản phẩm được tạo ra từ những công thức gia truyền, mang đến một trải nghiệm thú vị và khác biệt, thu hút những tín đồ yêu thích sự mới mẻ và chất lượng trong từng hơi thuốc.</p>
-                    <a href="/product" class="btn-primary">
+                    <a href="/thuoc-lao-hong-con" class="btn-primary">
                         Đặt hàng ngay
                     </a>
                 </div>

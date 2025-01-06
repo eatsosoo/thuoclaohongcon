@@ -9,11 +9,11 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/about', function () {
+Route::get('/thuoc-lao-tien-lang', function () {
     return view('about');
 });
 
-Route::get('/product', function () {
+Route::get('/thuoc-lao-hong-con', function () {
     return view('product');
 });
 
