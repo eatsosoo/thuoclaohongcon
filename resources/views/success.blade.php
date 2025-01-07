@@ -5,7 +5,7 @@
                 <h2 class="font-semibold text-4xl">Đặt hàng thành công!</h2>
                 <p class="mt-4 text-xl">Cảm ơn bạn đã đặt hàng. Chúng tôi sẽ liên hệ với bạn sớm nhất có thể để xác nhận đơn hàng.</p>
                 <div class="mt-8">
-                    <a href="{{ url('/') }}" class="btn btn-primary">Quay lại trang chủ</a>
+                    <a href="{{ url('/') }}" title="Thuốc Lào Tiên Lãng Trang chủ" class="btn btn-primary">Quay lại trang chủ</a>
                 </div>
             </div>
         </div>

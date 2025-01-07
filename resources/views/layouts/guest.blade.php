@@ -8,35 +8,44 @@
         <meta name="description" content="Thuốc lào Tiên Lãng Hồng Con - Đậm đà vị truyền thống, chất lượng thượng hạng, giao hàng toàn quốc. Thưởng thức vị thuốc lào đích thực!" />
         <meta name="keywords" content="thuốc lào, thuốc lào Tiên Lãng, thuốc lào Hồng Con, mua thuốc lào, thuốc lào truyền thống, thuốc lào ngon" />
         <meta name="robots" content="index, follow" />
+
         <meta property="og:title" content="Thuốc Lào Tiên Lãng Hồng Con - Đậm Đà Vị Truyền Thống" />
         <meta property="og:description" content="Khám phá hương vị thuốc lào truyền thống Tiên Lãng. Chất lượng đảm bảo, giao hàng tận nơi." />
         <meta property="og:image" content="https://thuoclaohongcon.com/images/thuoc-lao-tien-lang.jpg" />
         <meta property="og:url" content="https://thuoclaohongcon.com" />
         <meta property="og:type" content="website" />
+
+        <!-- Twitter Card Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="https://thuoclaohongcon.com/thuoc-lao-tien-lang">
+        <meta name="twitter:title" content="Thuốc Lào Tiên Lãng Hồng Con - Đậm Đà Vị Truyền Thống">
+        <meta name="twitter:description" content="Thuốc lào Tiên Lãng chính gốc Hồng Con - hương vị truyền thống lâu đời. Địa chỉ: 217 Khu 4, Thị trấn Tiên Lãng, Hải Phòng.">
+        <meta name="twitter:image" content="https://thuoclaohongcon.com/images/thuoc-lao-tien-lang.jpg">
+
         <link rel="canonical" href="https://thuoclaohongcon.com" />
         <script type="application/ld+json">
             {
-              "@context": "https://schema.org",
-              "@type": "Product",
-              "name": "Thuốc Lào Tiên Lãng Hồng Con",
-              "image": "https://thuoclaohongcon.com/images/thuoc-lao-tien-lang.jpg",
-              "description": "Thuốc lào Tiên Lãng Hồng Con, chất lượng thượng hạng, đậm đà hương vị truyền thống.",
-              "brand": {
-                "@type": "Brand",
-                "name": "Hồng Con"
-              },
-              "offers": {
-                "@type": "Offer",
-                "url": "https://thuoclaohongcon.com",
-                "priceCurrency": "VND",
-                "price": "200000",
-                "itemCondition": "https://schema.org/NewCondition",
-                "availability": "https://schema.org/InStock"
-              }
+                "@context": "https://schema.org",
+                "@type": "Product",
+                "name": "Thuốc Lào Tiên Lãng Hồng Con",
+                "image": "https://thuoclaohongcon.com/images/thuoc-lao-tien-lang-kien-thiet-loai-dac-biet.jpg",
+                "description": "Thuốc lào Tiên Lãng Hồng Con, chất lượng thượng hạng, đậm đà hương vị truyền thống.",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "Thuốc Lào Hồng Con"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "url": "https://thuoclaohongcon.com",
+                    "priceCurrency": "VND",
+                    "price": "200000",
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
             }
         </script>
 
-        <link rel="icon" href="/images/icon.jpg" type="image/x-icon" />
+        <link rel="icon" href="/images/logo.jpg" type="image/x-icon" />
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
@@ -49,7 +58,7 @@
         <header class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] border-b-2 border-secondary section-bg">
             <div class="container text-white flex items-center justify-between py-6 px-12">
                 <div>
-                    <img src="/images/icon.jpg" alt="logo" class="size-16" />
+                    <img src="/images/logo.jpg" alt="logo" class="size-16" />
                 </div>
                 <div class="flex gap-6">
                     <button id="menuButton" class="cursor-pointer hover:underline lg:hidden">
@@ -60,26 +69,26 @@
                     <div id="mb-menu" class="lg:hidden absolute right-0 top-0 bottom-0 left-0 bg-[#0000008f] hidden">
                         <div id="sidebar" class="bg-secondary p-6 w-[300px] h-full">
                             <div class="flex justify-between items-center mb-6">
-                                <img src="/images/icon.jpg" alt="logo" class="size-10" />
+                                <img src="/images/logo.jpg" alt="logo" class="size-10" />
                                 <svg id="closeMenu" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                                 </svg>
                             </div>
                             <div class="mb-6">
-                                <a href="/" class="cursor-pointer hover:underline">Trang chủ</a>
+                                <a href="/" title="Thuốc Lào Tiên Lãng Hồng Con Trang chủ" class="cursor-pointer hover:underline">Trang chủ</a>
                             </div>
                             <div class="mb-6">
-                                <a href="/thuoc-lao-tien-lang" class="cursor-pointer hover:underline">Về chúng tôi</a>
+                                <a href="/thuoc-lao-tien-lang" title="Thuốc Lào Tiên Lãng Hồng Con Câu Truyện" class="cursor-pointer hover:underline">Về chúng tôi</a>
                             </div>
                             <div class="mb-6">
-                                <a href="/thuoc-lao-hong-con" class="cursor-pointer hover:underline">Sản phẩm</a>
+                                <a href="/thuoc-lao-hong-con" title="Thuốc Lào Tiên Lãng Hồng Con Sản Phẩm" class="cursor-pointer hover:underline">Sản phẩm</a>
                             </div>
                         </div>
                     </div>
                     <div id="menu" class="hidden lg:flex flex-col lg:flex-row gap-6">
-                        <a href="/" class="cursor-pointer hover:underline">Trang chủ</a>
-                        <a href="/thuoc-lao-tien-lang" class="cursor-pointer hover:underline">Về chúng tôi</a>
-                        <a href="/thuoc-lao-hong-con" class="cursor-pointer hover:underline">Sản phẩm</a>
+                        <a href="/" title="Thuốc Lào Tiên Lãng Hồng Con Trang chủ" class="cursor-pointer hover:underline">Trang chủ</a>
+                        <a href="/thuoc-lao-tien-lang" title="Thuốc Lào Tiên Lãng Hồng Con Câu Truyện" class="cursor-pointer hover:underline">Về chúng tôi</a>
+                        <a href="/thuoc-lao-hong-con" title="Thuốc Lào Tiên Lãng Hồng Con Sản Phẩm" class="cursor-pointer hover:underline">Sản phẩm</a>
                     </div>
                 </div>
             </div>
@@ -94,7 +103,7 @@
             <div class="container text-white mx-auto px-6 py-16">
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                     <div>
-                        <img src="/images/icon.jpg" alt="logo" class="size-20" />
+                        <img src="/images/logo.jpg" alt="logo" class="size-20" />
                         <p class="mt-4">©2024 thuoclaohongcon, <br>All rights reserved. </p>
                     </div>
                     <div>
@@ -105,7 +114,7 @@
                     </div>
                     <div>
                         <p class="text-2xl font-semibold">Dịch vụ</p>
-                        <a href="https://www.facebook.com/Thuoclaohongcon" target="_blank" class="text-lg mt-4 text-gray-300">Facebook</a>
+                        <a href="https://www.facebook.com/Thuoclaohongcon" title="Thuốc Lào Tiên Lãng Hồng Con" target="_blank" class="text-lg mt-4 text-gray-300">Facebook</a>
                         <p class="text-lg mt-4 text-gray-300">0931579983 - 0934569770</p>
                         <p class="text-lg mt-4 text-gray-300">217 khu 4 thị trấn tiên lãng, huyện Tiên lãng , Thành phố Hải Phòng</p>
                     </div>

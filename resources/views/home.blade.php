@@ -3,14 +3,15 @@
         <div class="container p-6 text-white">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="p-6 rounded-lg shadow-md my-auto">
-                    <h2 class="font-semibold mb-8 text-6xl">Thuốc lào Tiên Lãng</h2>
+                    <h1 class="font-semibold mb-8 text-6xl">Thuốc lào Tiên Lãng</h1>
+                    <h2 class="font-semibold mb-8 text-xxl">Thuốc lào Hồng Con</h2>
                     <p class="text-xl text-gray-300 mb-8">Khói thuốc lào đưa ta về miền ký ức, nơi tình quê đậm đà và hương vị khó quên. Một điếu thuốc lào, một chén trà xanh, câu chuyện quê hương càng thêm đượm tình. Rít một hơi thật sâu, thả một làn khói trắng, lòng bỗng thấy nhẹ như mây trời.</p>
-                    <a href="/thuoc-lao-hong-con" class="btn-primary">
+                    <a href="/thuoc-lao-hong-con" title="Thuốc Lào Tiên Lãng Sản Phẩm" class="btn-primary">
                         Đặt hàng ngay
                     </a>
                 </div>
                 <div class="p-6 rounded-lg shadow-md flex justify-center">
-                    <img src="/images/cua_hang_4.jpg" alt="section2-img1" class="w-[25rem] rounded-lg">
+                    <img src="/images/thuoc-lao-tien-lang-4.jpg" alt="thuoc-lao-tien-lang-cua-hang-4" class="w-[25rem] rounded-lg">
                 </div>
             </div>
         </div>
@@ -90,24 +91,24 @@
 
     <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] section-bg">
         <div class="container px-6 py-20 text-white text-center">
-            <h1 class="font-semibold text-6xl">Sản phẩm của chúng tôi</h1>
+            <h1 class="font-semibold text-6xl">Thuốc lào Hồng Con sản phẩm</h1>
             <p class="mt-4">Tuyệt tác của hương vị thuốc lào Tiên Lãng</p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 max-w-6xl mx-auto">
                 <div class="p-6 mx-auto">
                     <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-dac-biet.jpg" alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại Đặc Biệt" class="w-[22rem] rounded-lg">
-                    <h3 class="font-semibold text-2xl my-4">Tiên Lãng-Kiến Thiết <br>loại Đặc Biệt</h3>
+                    <h3 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại Đặc Biệt</h3>
                     <p class="text-xl mb-4 text-secondary font-semibold">200k/1 lạng</p>
                     <button class="btn-order">Đặt hàng</button>
                 </div>
                 <div class="p-6 mx-auto">
                     <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-vip.jpg" alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại VIP" class="w-[22rem] rounded-lg">
-                    <h3 class="font-semibold text-2xl my-4">Tiên Lãng-Kiến Thiết <br>loại VIP</h3>
+                    <h3 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại VIP</h3>
                     <p class="text-xl mb-4 text-secondary font-semibold">150k/1 lạng</p>
                     <button class="btn-order">Đặt hàng</button>
                 </div>
                 <div class="p-6 mx-auto">
                     <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-1.jpg" alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại 1" class="w-[22rem] rounded-lg">
-                    <h3 class="font-semibold text-2xl my-4">Tiên Lãng-Kiến Thiết <br>loại 1</h3>
+                    <h3 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại 1</h3>
                     <p class="text-xl mb-4 text-secondary font-semibold">120k/1 lạng</p>
                     <button class="btn-order">Đặt hàng</button>
                 </div>
@@ -119,7 +120,7 @@
         <div class="container px-6 py-6 text-white">
             <div class="grid grid-cols-1 md:grid-cols-6 gap-6 max-w-6xl mx-auto">
                 <div class="col-span-2 my-auto">
-                    <h1 class="font-semibold text-6xl">Sản phẩm của chúng tôi cung cấp những gì?</h1>
+                    <h1 class="font-semibold text-6xl">Thuốc lào Hồng Con sản phẩm cung cấp những gì?</h1>
                     <p class="text-gray-300 mt-4">Khói thuốc lào vờn bay trong gió, mang theo hương vị của đất trời quê hương.</p>
                 </div>
                 <div class="col-span-4">
@@ -163,7 +164,7 @@
                 <div class="p-6 rounded-lg shadow-md my-auto">
                     <h2 class="font-semibold mb-4 text-4xl">Sự lựa chọn hàng đầu cho những tín đồ</h2>
                     <p class="text-xl text-gray-300 mb-8">Với chất lượng vượt trội, thuốc lào Tiên Lãng không chỉ nổi bật bởi hương vị đậm đà mà còn đảm bảo tính tự nhiên và an toàn cho sức khỏe. Mỗi sản phẩm được tạo ra từ những công thức gia truyền, mang đến một trải nghiệm thú vị và khác biệt, thu hút những tín đồ yêu thích sự mới mẻ và chất lượng trong từng hơi thuốc.</p>
-                    <a href="/thuoc-lao-hong-con" class="btn-primary">
+                    <a href="/thuoc-lao-hong-con" title="Thuốc Lào Tiên Lãng Sản Phẩm" class="btn-primary">
                         Đặt hàng ngay
                     </a>
                 </div>
