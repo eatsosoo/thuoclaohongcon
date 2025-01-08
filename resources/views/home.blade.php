@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <section class="bg-[url('/images/bg.webp')] section-bg">
+    <section class="section-bg">
         <div class="container p-6 text-white">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="p-6 rounded-lg shadow-md my-auto">
@@ -17,7 +17,7 @@
         </div>
     </section>
 
-    <section class="bg-[url('/images/bg.webp')] section-bg">
+    <section class="section-bg">
         <div class="container px-6 py-20 text-white">
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="font-semibold text-6xl">Về sản phẩm của chúng tôi</h1>
@@ -27,12 +27,12 @@
                 <div class="flex flex-col gap-6">
                     <div class="p-6">
                         <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/frame-1000007267-m8Myfs.svg" alt="giao-hang">
-                        <h3 class="font-semibold mb-4 text-2xl">Siêu ngon</h3>
+                        <h2 class="font-semibold mb-4 text-2xl">Siêu ngon</h2>
                         <p class="text-gray-300">Hương vị đậm đà, siêu ngon khó cưỡng, mang đến trải nghiệm khó quên cho người thưởng thức.</p>
                     </div>
                     <div class="p-6">
                         <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/fdrame-1000007267-wAeF_P.svg" alt="than-thien">
-                        <h3 class="font-semibold mb-4 text-2xl">Không chất bảo quản</h3>
+                        <h2 class="font-semibold mb-4 text-2xl">Không chất bảo quản</h2>
                         <p class="text-gray-300">Nói không với chất bảo quản, giữ trọn vẹn hương vị nguyên bản và an toàn cho sức khỏe.</p>
                     </div>
                 </div>
@@ -42,12 +42,12 @@
                 <div class="flex flex-col gap-6">
                     <div class="p-6">
                         <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/frame-1000007267-PnIs2f.svg" alt="nhieu-lua-chon">
-                        <h3 class="font-semibold mb-4 text-2xl">Đảm bảo</h3>
+                        <h2 class="font-semibold mb-4 text-2xl">Đảm bảo</h2>
                         <p class="text-gray-300">Cam kết chất lượng từ khâu chọn lọc nguyên liệu đến thành phẩm, đảm bảo sự hài lòng tuyệt đối.</p>
                     </div>
                     <div class="p-6">
                         <img src="https://cdn.cmsfly.com/64252faf5d786b002ad3c138/uugk-okIDse.svg" alt="suc-khoe">
-                        <h3 class="font-semibold mb-4 text-2xl">100% tự nhiên</h3>
+                        <h2 class="font-semibold mb-4 text-2xl">100% tự nhiên</h2>
                         <p class="text-gray-300">Được làm từ 100% nguyên liệu tự nhiên, giữ gìn tinh túy đất trời trong từng sản phẩm.</p>
                     </div>
                 </div>
@@ -89,7 +89,7 @@
         </div>
     </section>
 
-    <section class="bg-[url('/images/bg.webp')] section-bg">
+    <section class="section-bg">
         <div class="container px-6 py-20 text-white text-center">
             <h1 class="font-semibold text-6xl">Thuốc lào Hồng Con sản phẩm</h1>
             <p class="mt-4">Tuyệt tác của hương vị thuốc lào Tiên Lãng</p>
@@ -116,7 +116,7 @@
         </div>
     </section>
 
-    <section class="bg-[url('/images/bg.webp')] section-bg">
+    <section class="section-bg">
         <div class="container px-6 py-6 text-white">
             <div class="grid grid-cols-1 md:grid-cols-6 gap-6 max-w-6xl mx-auto">
                 <div class="col-span-2 my-auto">
@@ -148,7 +148,7 @@
         </div>
     </section>
 
-    <section class="bg-[url('/images/bg.webp')] section-bg">
+    <section class="section-bg">
         <div class="container p-6 text-white">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="p-6 rounded-lg shadow-md my-auto">
@@ -159,7 +159,7 @@
                     <img src="/images/thuoc-lao-hong-con-san-pham.webp" alt="Sản phẩm Thuốc Lào Tiên Lãng Hồng Con" class="w-[25rem] h-[25rem] rounded-lg" width="400" height="400">
                 </div>
                 <div class="p-6 rounded-lg shadow-md flex justify-center">
-                    <img src="/images/khach-hang-trai-nghiem-thuoc-lao-hong-con.png" alt="section2-img2" class="Khách hàng trải nghiệm Thuốc Lào Hồng Con" width="400" height="400">
+                    <img src="/images/khach-hang-trai-nghiem-thuoc-lao-hong-con.webp" alt="Khách hàng trải nghiệm Thuốc Lào Tiên Lãng" class="w-[25rem] h-[25rem] rounded-lg" width="400" height="400">
                 </div>
                 <div class="p-6 rounded-lg shadow-md my-auto">
                     <h2 class="font-semibold mb-4 text-4xl">Sự lựa chọn hàng đầu cho những tín đồ</h2>

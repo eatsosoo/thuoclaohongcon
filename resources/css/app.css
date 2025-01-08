@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-image: url('/images/bg.webp');
+}
 .section-bg {
     @apply bg-cover bg-center flex justify-center;
 }

@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <section class="bg-[url('/images/bg.webp')] section-bg">
+    <section class="section-bg">
         <div class="container p-6 text-white">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="p-6 rounded-lg shadow-md my-auto">
@@ -28,7 +28,7 @@
         </div>
     </section>
 
-    <section class="bg-[url('/images/bg.webp')] section-bg">
+    <section class="section-bg">
         <div class="container px-6 py-20 text-white text-center">
             <div class="font-semibold text-3xl">Hạnh phúc là làm một bi thuốc ngon lành...</div>
             <div class="mt-4">Lê Thuỷ Hoàng</div>
@@ -36,7 +36,7 @@
         </div>
     </section>
 
-    <section class="bg-[url('/images/bg.webp')] section-bg">
+    <section class="section-bg">
         <div class="container px-6 py-20">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-8 gap-6">
                 <div class="px-8">
@@ -52,7 +52,7 @@
         </div>
     </section>
     
-    <section class="bg-[url('/images/bg.webp')] section-bg">
+    <section class="section-bg">
         <div class="container px-6 py-20 text-white">
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="font-semibold text-6xl">Chúng tôi cung cấp thuốc lào hảo hạng nhất</h1>
@@ -124,7 +124,7 @@
         </div>
     </section>
 
-    <section class="bg-[url('/images/bg.webp')] section-bg">
+    <section class="section-bg">
         <div class="container px-6 py-20 text-white text-center">
             <h1 class="font-semibold text-6xl">Thuốc lào Hồng Con sản phẩm</h1>
             <p class="mt-4">Tuyệt tác của hương vị thuốc lào Tiên Lãng</p>
@@ -151,7 +151,7 @@
         </div>
     </section>
 
-    <section class="bg-[url('/images/bg.webp')] section-bg">
+    <section class="section-bg">
         <div class="container px-6 py-20 text-white text-center mx-auto">
             <h1 class="font-semibold text-6xl">Facebook của chúng tôi</h1>
             <p class="mt-4">Gìn giữ giá trị xưa - Lan toả đam mê thuốc lào</p>

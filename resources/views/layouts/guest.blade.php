@@ -53,11 +53,11 @@
         </noscript>
 
         <!-- Styles / Scripts -->
-        <link rel="stylesheet" href="/build/assets/app-CYnQzG6J.css">
+        <link rel="stylesheet" href="/build/assets/app-BD0j6XkT.css">
         {{-- <script src="/build/assets/app-BPnfBaih.js" defer></script> --}}
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50 text-xl">
-        <header class="bg-[url('/images/bg.webp')] border-b-2 border-secondary section-bg">
+        <header class="border-b-2 border-secondary section-bg">
             <div class="container text-white flex items-center justify-between py-6 px-12">
                 <div>
                     <img src="/images/logo.webp" alt="logo" class="size-16" />
@@ -101,7 +101,7 @@
             {{ $slot }}
         </main>
 
-        <footer class="bg-[url('/images/bg.webp')] border-t-2 border-secondary section-bg">
+        <footer class="border-t-2 border-secondary section-bg">
             <div class="container text-white mx-auto px-6 py-16">
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                     <div>

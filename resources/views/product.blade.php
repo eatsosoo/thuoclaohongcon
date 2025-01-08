@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <section class="bg-[url('/images/bg.webp')] section-bg">
+    <section class="section-bg">
         <div class="container px-6 py-20 text-white text-center">
             <h1 class="font-semibold text-6xl">Thuốc lào Hồng Con sản phẩm</h1>
             <p class="mt-4">Tuyệt tác của hương vị thuốc lào Tiên Lãng</p>
