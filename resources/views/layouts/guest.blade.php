@@ -11,7 +11,7 @@
 
         <meta property="og:title" content="Thuốc Lào Tiên Lãng Hồng Con - Đậm Đà Vị Truyền Thống" />
         <meta property="og:description" content="Khám phá hương vị thuốc lào truyền thống Tiên Lãng. Chất lượng đảm bảo, giao hàng tận nơi." />
-        <meta property="og:image" content="https://thuoclaohongcon.com/images/thuoc-lao-tien-lang.jpg" />
+        <meta property="og:image" content="https://thuoclaohongcon.com/images/thuoc-lao-tien-lang.webp" />
         <meta property="og:url" content="https://thuoclaohongcon.com" />
         <meta property="og:type" content="website" />
 
@@ -20,7 +20,7 @@
         <meta name="twitter:site" content="https://thuoclaohongcon.com/thuoc-lao-tien-lang">
         <meta name="twitter:title" content="Thuốc Lào Tiên Lãng Hồng Con - Đậm Đà Vị Truyền Thống">
         <meta name="twitter:description" content="Thuốc lào Tiên Lãng chính gốc Hồng Con - hương vị truyền thống lâu đời. Địa chỉ: 217 Khu 4, Thị trấn Tiên Lãng, Hải Phòng.">
-        <meta name="twitter:image" content="https://thuoclaohongcon.com/images/thuoc-lao-tien-lang.jpg">
+        <meta name="twitter:image" content="https://thuoclaohongcon.com/images/thuoc-lao-tien-lang.webp">
 
         <link rel="canonical" href="https://thuoclaohongcon.com" />
         <script type="application/ld+json">
@@ -28,7 +28,7 @@
                 "@context": "https://schema.org",
                 "@type": "Product",
                 "name": "Thuốc Lào Tiên Lãng Hồng Con",
-                "image": "https://thuoclaohongcon.com/images/thuoc-lao-tien-lang-kien-thiet-loai-dac-biet.jpg",
+                "image": "https://thuoclaohongcon.com/images/thuoc-lao-tien-lang-kien-thiet-loai-dac-biet.webp",
                 "description": "Thuốc lào Tiên Lãng Hồng Con, chất lượng thượng hạng, đậm đà hương vị truyền thống.",
                 "brand": {
                     "@type": "Brand",
@@ -45,20 +45,22 @@
             }
         </script>
 
-        <link rel="icon" href="/images/logo.jpg" type="image/x-icon" />
+        <link rel="icon" href="/images/logo.webp" type="image/x-icon" />
         <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+        <link rel="preload" href="https://fonts.bunny.net">
+        <noscript>
+            <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+        </noscript>
 
         <!-- Styles / Scripts -->
         <link rel="stylesheet" href="/build/assets/app-CYnQzG6J.css">
-        <script src="/build/assets/app-BPnfBaih.js" defer></script>
+        {{-- <script src="/build/assets/app-BPnfBaih.js" defer></script> --}}
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50 text-xl">
-        <header class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] border-b-2 border-secondary section-bg">
+        <header class="bg-[url('/images/bg.webp')] border-b-2 border-secondary section-bg">
             <div class="container text-white flex items-center justify-between py-6 px-12">
                 <div>
-                    <img src="/images/logo.jpg" alt="logo" class="size-16" />
+                    <img src="/images/logo.webp" alt="logo" class="size-16" />
                 </div>
                 <div class="flex gap-6">
                     <button id="menuButton" class="cursor-pointer hover:underline lg:hidden">
@@ -69,7 +71,7 @@
                     <div id="mb-menu" class="lg:hidden absolute right-0 top-0 bottom-0 left-0 bg-[#0000008f] hidden">
                         <div id="sidebar" class="bg-secondary p-6 w-[300px] h-full">
                             <div class="flex justify-between items-center mb-6">
-                                <img src="/images/logo.jpg" alt="logo" class="size-10" />
+                                <img src="/images/logo.webp" alt="logo" class="size-10" />
                                 <svg id="closeMenu" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                                 </svg>
@@ -99,11 +101,11 @@
             {{ $slot }}
         </main>
 
-        <footer class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] border-t-2 border-secondary section-bg">
+        <footer class="bg-[url('/images/bg.webp')] border-t-2 border-secondary section-bg">
             <div class="container text-white mx-auto px-6 py-16">
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                     <div>
-                        <img src="/images/logo.jpg" alt="logo" class="size-20" />
+                        <img src="/images/logo.webp" alt="logo" class="size-20" />
                         <p class="mt-4">©2024 thuoclaohongcon, <br>All rights reserved. </p>
                     </div>
                     <div>

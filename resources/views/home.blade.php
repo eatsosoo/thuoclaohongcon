@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] section-bg">
+    <section class="bg-[url('/images/bg.webp')] section-bg">
         <div class="container p-6 text-white">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="p-6 rounded-lg shadow-md my-auto">
@@ -11,13 +11,13 @@
                     </a>
                 </div>
                 <div class="p-6 rounded-lg shadow-md flex justify-center">
-                    <img src="/images/thuoc-lao-tien-lang-4.jpg" alt="thuoc-lao-tien-lang-cua-hang-4" class="w-[25rem] rounded-lg">
+                    <img src="/images/thuoc-lao-tien-lang-4.webp" alt="thuoc-lao-tien-lang-cua-hang-4" class="w-[25rem] rounded-lg" width="400" height="400">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] section-bg">
+    <section class="bg-[url('/images/bg.webp')] section-bg">
         <div class="container px-6 py-20 text-white">
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="font-semibold text-6xl">Về sản phẩm của chúng tôi</h1>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="flex justify-center">
-                    <img src="/images/san-pham-thuoc-lao-hong-con.jpg" alt="Sản phẩm Thuốc Lào Tiên Lãng Hồng Con" class="w-full h-auto rounded-lg">
+                    <img src="/images/san-pham-thuoc-lao-hong-con.webp" alt="Sản phẩm Thuốc Lào Tiên Lãng Hồng Con" class="w-full h-auto rounded-lg">
                 </div>
                 <div class="flex flex-col gap-6">
                     <div class="p-6">
@@ -89,25 +89,25 @@
         </div>
     </section>
 
-    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] section-bg">
+    <section class="bg-[url('/images/bg.webp')] section-bg">
         <div class="container px-6 py-20 text-white text-center">
             <h1 class="font-semibold text-6xl">Thuốc lào Hồng Con sản phẩm</h1>
             <p class="mt-4">Tuyệt tác của hương vị thuốc lào Tiên Lãng</p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 max-w-6xl mx-auto">
                 <div class="p-6 mx-auto">
-                    <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-dac-biet.jpg" alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại Đặc Biệt" class="w-[22rem] rounded-lg">
+                    <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-dac-biet.webp" alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại Đặc Biệt" class="w-[22rem] rounded-lg" width="325">
                     <h3 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại Đặc Biệt</h3>
                     <p class="text-xl mb-4 text-secondary font-semibold">200k/1 lạng</p>
                     <button class="btn-order">Đặt hàng</button>
                 </div>
                 <div class="p-6 mx-auto">
-                    <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-vip.jpg" alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại VIP" class="w-[22rem] rounded-lg">
+                    <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-vip.webp" alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại VIP" class="w-[22rem] rounded-lg" width="325">
                     <h3 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại VIP</h3>
                     <p class="text-xl mb-4 text-secondary font-semibold">150k/1 lạng</p>
                     <button class="btn-order">Đặt hàng</button>
                 </div>
                 <div class="p-6 mx-auto">
-                    <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-1.jpg" alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại 1" class="w-[22rem] rounded-lg">
+                    <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-1.webp" alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại 1" class="w-[22rem] rounded-lg" width="325">
                     <h3 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại 1</h3>
                     <p class="text-xl mb-4 text-secondary font-semibold">120k/1 lạng</p>
                     <button class="btn-order">Đặt hàng</button>
@@ -116,7 +116,7 @@
         </div>
     </section>
 
-    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] section-bg">
+    <section class="bg-[url('/images/bg.webp')] section-bg">
         <div class="container px-6 py-6 text-white">
             <div class="grid grid-cols-1 md:grid-cols-6 gap-6 max-w-6xl mx-auto">
                 <div class="col-span-2 my-auto">
@@ -148,7 +148,7 @@
         </div>
     </section>
 
-    <section class="bg-[url('https://cdn.cmsfly.com/64252faf5d786b002ad3c138/9-TysH66.png')] section-bg">
+    <section class="bg-[url('/images/bg.webp')] section-bg">
         <div class="container p-6 text-white">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div class="p-6 rounded-lg shadow-md my-auto">
@@ -156,10 +156,10 @@
                     <p class="text-xl text-gray-300">Không chỉ là một sản phẩm, mà còn là bản sắc văn hóa của một vùng đất. Được chế biến thủ công từ những nguyên liệu tự nhiên, thuốc lào Tiên Lãng mang đến hương vị đậm đà, giàu dưỡng chất, giúp người dùng cảm nhận trọn vẹn sự tinh túy của đất trời. Mỗi điếu thuốc lào là một hành trình trải nghiệm độc đáo của những thế hệ đi trước, kết hợp hoàn hảo giữa truyền thống và sự sáng tạo hiện đại.</p>
                 </div>
                 <div class="p-6 rounded-lg shadow-md flex justify-center">
-                    <img src="/images/thuoc-lao-hong-con-san-pham.jpg" alt="Sản phẩm Thuốc Lào Tiên Lãng Hồng Con" class="w-[25rem] h-[25rem] rounded-lg">
+                    <img src="/images/thuoc-lao-hong-con-san-pham.webp" alt="Sản phẩm Thuốc Lào Tiên Lãng Hồng Con" class="w-[25rem] h-[25rem] rounded-lg" width="400" height="400">
                 </div>
                 <div class="p-6 rounded-lg shadow-md flex justify-center">
-                    <img src="/images/customer.png" alt="section2-img2" class="w-[25rem] h-[25rem] rounded-lg object-cover">
+                    <img src="/images/khach-hang-trai-nghiem-thuoc-lao-hong-con.png" alt="section2-img2" class="Khách hàng trải nghiệm Thuốc Lào Hồng Con" width="400" height="400">
                 </div>
                 <div class="p-6 rounded-lg shadow-md my-auto">
                     <h2 class="font-semibold mb-4 text-4xl">Sự lựa chọn hàng đầu cho những tín đồ</h2>
