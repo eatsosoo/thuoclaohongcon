@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /temp/
+Disallow: /private/
+
+Sitemap: https://www.example.com/sitemap.xml
