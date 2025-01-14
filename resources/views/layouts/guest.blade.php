@@ -39,9 +39,53 @@
                     "url": "https://thuoclaohongcon.com",
                     "priceCurrency": "VND",
                     "price": "200000",
+                    "priceValidUntil": "2026-12-31",
                     "itemCondition": "https://schema.org/NewCondition",
-                    "availability": "https://schema.org/InStock"
-                }
+                    "availability": "https://schema.org/InStock",
+                    "hasMerchantReturnPolicy": {
+                        "@type": "MerchantReturnPolicy",
+                        "returnPolicyCategory": "https://schema.org/Refund"
+                    },
+                    "shippingDetails": {
+                        "@type": "OfferShippingDetails",
+                        "shippingRate": {
+                            "@type": "MonetaryAmount",
+                            "value": "50000",
+                            "currency": "VND"
+                        },
+                        "shippingDestination": {
+                            "@type": "DefinedRegion",
+                            "addressCountry": "VN"
+                        }
+                    }
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.5",
+                    "reviewCount": "24"
+                },
+                "review": [
+                    {
+                        "@type": "Review",
+                        "author": "Tran Duy Phong",
+                        "datePublished": "2025-01-01",
+                        "description": "Sản phẩm rất tốt, hương vị đậm đà.",
+                        "reviewRating": {
+                            "@type": "Rating",
+                            "ratingValue": "5"
+                        }
+                    },
+                    {
+                        "@type": "Review",
+                        "author": "Le Thuy Hoang",
+                        "datePublished": "2025-01-06",
+                        "description": "Chất lượng tuyệt vời, giao hàng nhanh chóng.",
+                        "reviewRating": {
+                            "@type": "Rating",
+                            "ratingValue": "5"
+                        }
+                    }
+                ]
             }
         </script>
 

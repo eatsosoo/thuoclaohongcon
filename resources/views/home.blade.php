@@ -5,9 +5,7 @@
                 <div class="p-6 rounded-lg shadow-md my-auto">
                     <h1 class="font-semibold mb-8 text-6xl">Thuốc lào Tiên Lãng</h1>
                     <h2 class="font-semibold mb-8 text-xxl">Thuốc lào Hồng Con</h2>
-                    <p class="text-xl text-gray-300 mb-8">Khói thuốc lào đưa ta về miền ký ức, nơi tình quê đậm đà và
-                        hương vị khó quên. Một điếu thuốc lào, một chén trà xanh, câu chuyện quê hương càng thêm đượm
-                        tình. Rít một hơi thật sâu, thả một làn khói trắng, lòng bỗng thấy nhẹ như mây trời.</p>
+                    <p class="text-xl text-gray-300 mb-8">Khói thuốc lào Tiên Lãng đưa ta về miền ký ức, gợi nhớ tình quê hương đậm đà và hương vị khó phai. Chỉ cần một điếu thuốc lào Hồng Con cùng chén trà xanh thơm dịu, câu chuyện quê nhà trở nên đượm tình hơn bao giờ hết. Hít một hơi thật sâu, thả làn khói trắng, cảm giác như lòng nhẹ bẫng, phiêu du giữa trời mây.</p>
                     <a href="/thuoc-lao-hong-con" title="Thuốc Lào Tiên Lãng Sản Phẩm" class="btn-primary">
                         Đặt hàng ngay
                     </a>
