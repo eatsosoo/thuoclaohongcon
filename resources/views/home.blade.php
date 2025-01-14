@@ -5,9 +5,7 @@
                 <div class="p-6 rounded-lg shadow-md my-auto">
                     <h1 class="font-semibold mb-8 text-6xl">Thuốc lào Tiên Lãng</h1>
                     <h2 class="font-semibold mb-8 text-xxl">Thuốc lào Hồng Con</h2>
-                    <p class="text-xl text-gray-300 mb-8">Khói thuốc lào đưa ta về miền ký ức, nơi tình quê đậm đà và
-                        hương vị khó quên. Một điếu thuốc lào, một chén trà xanh, câu chuyện quê hương càng thêm đượm
-                        tình. Rít một hơi thật sâu, thả một làn khói trắng, lòng bỗng thấy nhẹ như mây trời.</p>
+                    <p class="text-xl text-gray-300 mb-8">Khói thuốc lào Tiên Lãng đưa ta về miền ký ức, gợi nhớ tình quê hương đậm đà và hương vị khó phai. Chỉ cần một điếu thuốc lào Hồng Con cùng chén trà xanh thơm dịu, câu chuyện quê nhà trở nên đượm tình hơn bao giờ hết. Hít một hơi thật sâu, thả làn khói trắng, cảm giác như lòng nhẹ bẫng, phiêu du giữa trời mây.</p>
                     <a href="/thuoc-lao-hong-con" title="Thuốc Lào Tiên Lãng Sản Phẩm" class="btn-primary">
                         Đặt hàng ngay
                     </a>
@@ -117,7 +115,7 @@
                     <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-dac-biet.webp"
                         alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại Đặc Biệt"
                         class="w-[22rem] h-[26.25rem] rounded-lg" width="325" height="420">
-                    <h3 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại Đặc Biệt</h3>
+                    <h2 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại Đặc Biệt</h2>
                     <p class="text-xl mb-4 text-secondary font-semibold">200k/1 lạng</p>
                     <button class="btn-order">Đặt hàng</button>
                 </div>
@@ -125,7 +123,7 @@
                     <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-vip.webp"
                         alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại VIP"
                         class="w-[22rem] h-[26.25rem] rounded-lg" width="325" height="420">
-                    <h3 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại VIP</h3>
+                    <h2 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại VIP</h2>
                     <p class="text-xl mb-4 text-secondary font-semibold">150k/1 lạng</p>
                     <button class="btn-order">Đặt hàng</button>
                 </div>
@@ -133,7 +131,7 @@
                     <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-1.webp"
                         alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại 1"
                         class="w-[22rem] h-[26.25rem] rounded-lg" width="325" height="420">
-                    <h3 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại 1</h3>
+                    <h2 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại 1</h2>
                     <p class="text-xl mb-4 text-secondary font-semibold">120k/1 lạng</p>
                     <button class="btn-order">Đặt hàng</button>
                 </div>
