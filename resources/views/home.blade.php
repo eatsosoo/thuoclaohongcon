@@ -115,7 +115,7 @@
                     <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-dac-biet.webp"
                         alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại Đặc Biệt"
                         class="w-[22rem] h-[26.25rem] rounded-lg" width="325" height="420">
-                    <h3 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại Đặc Biệt</h3>
+                    <h2 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại Đặc Biệt</h2>
                     <p class="text-xl mb-4 text-secondary font-semibold">200k/1 lạng</p>
                     <button class="btn-order">Đặt hàng</button>
                 </div>
@@ -123,7 +123,7 @@
                     <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-vip.webp"
                         alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại VIP"
                         class="w-[22rem] h-[26.25rem] rounded-lg" width="325" height="420">
-                    <h3 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại VIP</h3>
+                    <h2 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại VIP</h2>
                     <p class="text-xl mb-4 text-secondary font-semibold">150k/1 lạng</p>
                     <button class="btn-order">Đặt hàng</button>
                 </div>
@@ -131,7 +131,7 @@
                     <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-1.webp"
                         alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại 1"
                         class="w-[22rem] h-[26.25rem] rounded-lg" width="325" height="420">
-                    <h3 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại 1</h3>
+                    <h2 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại 1</h2>
                     <p class="text-xl mb-4 text-secondary font-semibold">120k/1 lạng</p>
                     <button class="btn-order">Đặt hàng</button>
                 </div>
