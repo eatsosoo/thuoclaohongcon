@@ -113,7 +113,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 max-w-6xl mx-auto">
                 <div class="p-6 mx-auto">
                     <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-dac-biet.webp"
-                        alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại Đặc Biệt"
+                        alt="Thuốc lào Tiên Lãng - Kiến Thiết loại Đặc Biệt"
                         class="w-[22rem] h-[26.25rem] rounded-lg" width="325" height="420">
                     <h2 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại Đặc Biệt</h2>
                     <p class="text-xl mb-4 text-secondary font-semibold">200k/1 lạng</p>
@@ -121,7 +121,7 @@
                 </div>
                 <div class="p-6 mx-auto">
                     <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-vip.webp"
-                        alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại VIP"
+                        alt="Thuốc lào Tiên Lãng - Kiến Thiết loại VIP"
                         class="w-[22rem] h-[26.25rem] rounded-lg" width="325" height="420">
                     <h2 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại VIP</h2>
                     <p class="text-xl mb-4 text-secondary font-semibold">150k/1 lạng</p>
@@ -129,7 +129,7 @@
                 </div>
                 <div class="p-6 mx-auto">
                     <img src="/images/thuoc-lao-tien-lang-kien-thiet-loai-1.webp"
-                        alt="Thuốc lào Tiên Lãng Hồng Con - Kiến Thiết loại 1"
+                        alt="Thuốc lào Tiên Lãng - Kiến Thiết loại 1"
                         class="w-[22rem] h-[26.25rem] rounded-lg" width="325" height="420">
                     <h2 class="font-semibold text-2xl my-4">Thuốc lào Tiên Lãng-Kiến Thiết loại 1</h2>
                     <p class="text-xl mb-4 text-secondary font-semibold">120k/1 lạng</p>

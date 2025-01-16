@@ -107,7 +107,7 @@
                     <img src="/images/logo.webp" alt="logo" class="size-16" />
                 </div>
                 <div class="flex gap-6">
-                    <button id="menuButton" class="cursor-pointer hover:underline lg:hidden">
+                    <button id="menuButton" class="cursor-pointer hover:underline lg:hidden" aria-label="Mở menu">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
                         </svg>
@@ -132,7 +132,7 @@
                         </div>
                     </div>
                     <div id="menu" class="hidden lg:flex flex-col lg:flex-row gap-6">
-                        <a href="/" title="Thuốc Lào Tiên Lãng Hồng Con Trang chủ" class="cursor-pointer hover:underline">Trang chủ</a>
+                        <a href="/" title="Thuốc Lào Tiên Lãng Trang chủ" class="cursor-pointer hover:underline">Trang chủ</a>
                         <a href="/thuoc-lao-tien-lang" title="Thuốc Lào Tiên Lãng Hồng Con Câu Truyện" class="cursor-pointer hover:underline">Về chúng tôi</a>
                         <a href="/thuoc-lao-hong-con" title="Thuốc Lào Tiên Lãng Hồng Con Sản Phẩm" class="cursor-pointer hover:underline">Sản phẩm</a>
                     </div>
