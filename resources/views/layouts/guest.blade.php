@@ -235,7 +235,7 @@
             document.querySelectorAll('.btn-order').forEach(button => {
                 button.addEventListener('click', function(event) {
                     event.preventDefault();
-                    const product = this.parentElement.querySelector('h3').textContent;
+                    const product = this.parentElement.querySelector('h2').textContent;
                     toggleModal(product);
                 });
             });
